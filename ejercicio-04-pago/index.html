@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Pago</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Pago</legend>
+
+                <label for="numero-tarjeta">Número de tarjeta de crédito</label>
+                <input type="text" id="numero-tarjeta">
+
+                <label for="nombre-titular" >Nombre completo del titular</label>
+                <input type="text" id="nombre-titular">
+
+                <label for="mes">Mes</label>
+                <select id="mes">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+
+                <label for="año">Año</label>
+                <input type="number" id="año" value="2022" min="2022" max="2032">
+
+                <label for="contraseña">CCV</label>
+                <input type="password" id="contraseña">
+
+                <input class="btn" type="submit" value="Pagar">
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>
